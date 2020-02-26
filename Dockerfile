@@ -1,7 +1,7 @@
 FROM alpine:3.8
 MAINTAINER oD <oldiy@163.com>
 USER root
-ENV BAIDUPCS_VERSION 3.6.8
+ENV BAIDUPCS_VERSION 3.7.0
 WORKDIR /
 
 RUN	set -x && \
